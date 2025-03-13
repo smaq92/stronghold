@@ -60,7 +60,7 @@ return [
 
         'single' => [
             'driver' => 'single',
-            'path' => env('LOG_PAHT', 'tmp/laravel.log'),
+            'path' => env('LOG_PATH', '/tmp/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
             'replace_placeholders' => true,
         ],
