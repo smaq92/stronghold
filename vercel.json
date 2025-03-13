@@ -3,20 +3,7 @@
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php",
-      "config": {
-        "includeFiles": [
-          "public/build/**/*",
-          "public/dist/**/*"  
-        ]
-      }
-    },
-    {
-      "src": "vite.config.js", 
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "public/dist"  
-      }
+      "use": "@vercel/php"
     }
   ],
   "routes": [
