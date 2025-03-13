@@ -48,7 +48,7 @@ return [
 
         'file' => [
             'driver' => 'file',
-            'path' => env('CACHE_PATH', '/tmp/cache'),
+            'path' => env('CACHE_PATH', '/tmp/laravel_cache'),
             'lock_path' => storage_path('framework/cache/data'),
         ],
 

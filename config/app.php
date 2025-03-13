@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+
+    'cache' => [
+    'path' => env('CACHE_PATH', '/tmp/laravel_cache'),
+],
+
+'bootstrap/cache' => env('CACHE_PATH', '/tmp/laravel_cache'),
+
+
 ];
